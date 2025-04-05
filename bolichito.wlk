@@ -31,9 +31,9 @@ method estaEquilibrado(){
     return objetoEnMostrador.peso()> objetoEnVidriera.peso()
 }
 
-method tieneAlgoDeColor(UnColor) {
-    return objetoEnMostrador.color() == UnColor ||
-            objetoEnVidriera.color() == UnColor
+method tieneAlgoDeColor(unColor) {
+    return objetoEnMostrador.color() == unColor ||
+            objetoEnVidriera.color() == unColor
 
 } 
 

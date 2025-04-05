@@ -1,0 +1,29 @@
+import objetos.*
+import personas.*
+
+test "el rojo es un color fuerte" {
+    assert.that  (rojo.esFuerte())
+}
+
+test "el celeste no es un color fuerte" {
+    assert.notThat  (celeste.esFuerte())
+}
+
+test "puedo modificar el peso del muñeco" {
+    muñeco.peso(600)
+    assert.equals(600, muñeco.peso())
+  
+}
+
+test "el peso original del muñeco es 100" {
+    assert.equals(0, muñeco.peso())
+  
+}
+
+test "a estefania le gusta la remera"{
+    assert.that(estefania.leGusta(remera))
+}
+
+test "a estefania no le gusta el muñeco"{
+    assert.notThat(estefania.leGusta(muñeco))
+}
